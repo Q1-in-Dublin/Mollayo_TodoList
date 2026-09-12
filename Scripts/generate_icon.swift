@@ -72,7 +72,7 @@ func drawIcon(px: Int) -> NSBitmapImageRep {
     let aspect = probe.size.height / probe.size.width
     let drawWidth = s * 0.64
     let drawSize = NSSize(width: drawWidth, height: drawWidth * aspect)
-    let fish = tintedFish(size: drawSize, tint: color(0.04, 0.43, 1.0))
+    let fish = tintedFish(size: drawSize, tint: color(0.788, 0.573, 0.169))
 
     let origin = CGPoint(x: (s - drawSize.width) / 2, y: (s - drawSize.height) / 2)
     cg.saveGState()
