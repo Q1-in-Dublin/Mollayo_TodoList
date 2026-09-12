@@ -6,6 +6,13 @@ A macOS native to-do + Pomodoro timer app for people (like ADHD users) who forge
 **자꾸 까먹는 나, 금붕어일까?**
 잘 까먹는 ADHD 사용자를 위한 macOS 네이티브 할 일 관리 + 뽀모도로 타이머 앱입니다.
 
+## Screenshots / 스크린샷
+
+<p align="center">
+  <img src="screenshots/tasks.png" width="420" alt="Task list" />
+  <img src="screenshots/about.png" width="420" alt="About screen" />
+</p>
+
 ## Why I built this / 왜 만들었나
 
 You're working, but you can't remember what you were even doing? Molayo is a small helper for people with a goldfish-level memory — it remembers so you don't have to.
