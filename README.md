@@ -10,6 +10,10 @@ A macOS native to-do + Pomodoro timer app for people (like ADHD users) who forge
 
 <p align="center">
   <img src="screenshots/tasks.png" width="420" alt="Task list" />
+  <img src="screenshots/calendar.png" width="420" alt="Calendar view" />
+</p>
+<p align="center">
+  <img src="screenshots/pomodoro.png" width="420" alt="Pomodoro timer" />
   <img src="screenshots/about.png" width="420" alt="About screen" />
 </p>
 
