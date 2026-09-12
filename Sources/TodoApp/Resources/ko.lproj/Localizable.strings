@@ -34,7 +34,7 @@
 "I forgot" = "몰라요";
 "Remind again at %@" = "%@에 다시 알림";
 "Don't forget this one!" = "이거 잊지 마세요!";
-"Molayo Briefing" = "Molayo 브리핑";
+"Mollayo Briefing" = "Mollayo 브리핑";
 "You're focusing — %@ left" = "집중 중 — %@ 남음";
 "You're on a break — %@ left" = "휴식 중 — %@ 남음";
 "No timer running right now." = "실행 중인 타이머가 없습니다.";
@@ -45,4 +45,6 @@
 "Today" = "오늘";
 "All done!" = "모두 완료!";
 "About" = "정보";
-"You're working, but you can't remember what you were doing? Molayo remembers so you don't have to." = "일은 하는데 뭘 하고 있었는지 기억이 안 나요? Molayo가 대신 기억해드릴게요.";
+"You're working, but you can't remember what you were doing? Mollayo remembers so you don't have to." = "일은 하는데 뭘 하고 있었는지 기억이 안 나요? Mollayo가 대신 기억해드릴게요.";
+"Subtasks" = "서브 작업";
+"New subtask" = "새 서브 작업";

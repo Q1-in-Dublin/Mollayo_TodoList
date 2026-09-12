@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct MolayoBriefingView: View {
+struct MollayoBriefingView: View {
     @EnvironmentObject var store: TaskStore
     @EnvironmentObject var pomodoro: PomodoroTimer
     @EnvironmentObject var i18n: LocalizationManager
@@ -42,7 +42,7 @@ struct MolayoBriefingView: View {
         VStack(alignment: .leading, spacing: 14) {
             HStack(spacing: 8) {
                 Image(systemName: "fish.fill").foregroundStyle(Color.accentColor)
-                Text(i18n.t("Molayo Briefing")).font(.headline)
+                Text(i18n.t("Mollayo Briefing")).font(.headline)
             }
 
             Label(timerLine, systemImage: "timer").font(.subheadline)

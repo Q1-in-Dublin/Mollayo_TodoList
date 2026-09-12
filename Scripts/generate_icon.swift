@@ -1,4 +1,4 @@
-// Molayo app icon: the same "fish.fill" glyph used elsewhere in the app
+// Mollayoo app icon: the same "fish.fill" glyph used elsewhere in the app
 // (sidebar button, snooze button, About screen), tinted blue, on a
 // teal-to-navy water background.
 // Earlier revisions (blue checkmark, "?!" bubble goldfish, chubby mochi-fish,

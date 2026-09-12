@@ -39,7 +39,7 @@ struct ContentView: View {
                 }
                 Divider()
                 Button { showBriefing = true } label: {
-                    Label("Molayo", systemImage: "fish.fill")
+                    Label("Mollayo", systemImage: "fish.fill")
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 .buttonStyle(.plain)
@@ -59,6 +59,6 @@ struct ContentView: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .sheet(isPresented: $showBriefing) { MolayoBriefingView() }
+        .sheet(isPresented: $showBriefing) { MollayoBriefingView() }
     }
 }

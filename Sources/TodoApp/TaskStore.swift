@@ -8,10 +8,17 @@ final class TaskStore: ObservableObject {
     var i18n: LocalizationManager?
 
     private let fileURL: URL = {
-        let dir = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-            .appendingPathComponent("Molayo", isDirectory: true)
+        let support = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
+        let dir = support.appendingPathComponent("Mollayo", isDirectory: true)
         try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
-        return dir.appendingPathComponent("tasks.json")
+        let url = dir.appendingPathComponent("tasks.json")
+
+        // One-time migration from the old "Molayo" (pre-rename) storage folder.
+        let oldURL = support.appendingPathComponent("Molayo/tasks.json")
+        if !FileManager.default.fileExists(atPath: url.path), FileManager.default.fileExists(atPath: oldURL.path) {
+            try? FileManager.default.copyItem(at: oldURL, to: url)
+        }
+        return url
     }()
 
     init() {
@@ -41,7 +48,7 @@ final class TaskStore: ObservableObject {
         tasks[idx].isDone.toggle()
     }
 
-    /// "Molayo" (I forgot) — reminds the user about this task again after a short delay.
+    /// "Mollayo" (I forgot) — reminds the user about this task again after a short delay.
     func snooze(_ task: TaskItem, minutes: Int = 15) {
         guard let idx = tasks.firstIndex(where: { $0.id == task.id }) else { return }
         let remindAt = Date().addingTimeInterval(TimeInterval(minutes * 60))

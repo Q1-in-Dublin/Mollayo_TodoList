@@ -2,8 +2,8 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-APP_NAME="Molayo"
-BUNDLE_ID="com.local.molayo"
+APP_NAME="Mollayo"
+BUNDLE_ID="com.local.mollayo"
 BUILD_DIR=".build/release"
 APP_DIR="$BUILD_DIR/$APP_NAME.app"
 
@@ -36,7 +36,7 @@ cat > "$APP_DIR/Contents/Info.plist" <<PLIST
     <key>CFBundleName</key>
     <string>$APP_NAME</string>
     <key>CFBundleDisplayName</key>
-    <string>Molayo</string>
+    <string>Mollayo</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>

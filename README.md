@@ -1,4 +1,4 @@
-# Molayo 🐟
+# Mollayo 🐟
 
 **Am I a goldfish? I keep forgetting what I'm doing.**
 A macOS native to-do + Pomodoro timer app for people (like ADHD users) who forget easily.
@@ -15,9 +15,9 @@ A macOS native to-do + Pomodoro timer app for people (like ADHD users) who forge
 
 ## Why I built this / 왜 만들었나
 
-You're working, but you can't remember what you were even doing? Molayo is a small helper for people with a goldfish-level memory: it remembers so you don't have to.
+You're working, but you can't remember what you were even doing? Mollayo is a small helper for people with a goldfish-level memory: it remembers so you don't have to.
 
-일은 하고 있는데 뭘 하고 있었는지 기억이 안 날 때가 있습니다. Molayo는 그럴 때 다시 알려주는, 금붕어 같은 기억력을 가진 사람들을 위한 작은 도우미입니다.
+일은 하고 있는데 뭘 하고 있었는지 기억이 안 날 때가 있습니다. Mollayo는 그럴 때 다시 알려주는, 금붕어 같은 기억력을 가진 사람들을 위한 작은 도우미입니다.
 
 ## Features / 기능
 
@@ -29,8 +29,8 @@ You're working, but you can't remember what you were even doing? Molayo is a sma
   **통계**: 전체 / 완료 / 남음 작업 수를 상시 표시
 - **Pomodoro timer**: 50 min focus / 10 min break by default (adjustable), popup + macOS notification when a session ends
   **뽀모도로 타이머**: 기본 집중 50분 / 휴식 10분(설정에서 자유롭게 조절), 세션 종료 시 팝업 + macOS 시스템 알림으로 즉시 인지
-- **Molayo briefing**: tap the Molayo button in the sidebar for an instant summary of your timer status and every remaining task
-  **Molayo 브리핑**: 사이드바의 Molayo 버튼을 누르면 지금 타이머 상태 + 남은 작업 전체 목록을 한 번에 확인
+- **Mollayo briefing**: tap the Mollayo button in the sidebar for an instant summary of your timer status and every remaining task
+  **Mollayo 브리핑**: 사이드바의 Mollayo 버튼을 누르면 지금 타이머 상태 + 남은 작업 전체 목록을 한 번에 확인
 - **"I forgot" reminders**: tap the fish icon next to any task to get reminded again in 15 minutes
   **"몰라요" 리마인더**: 미완료 작업 옆 물고기 버튼을 누르면 15분 뒤 다시 알림 (깜빡했을 때를 위한 스누즈 기능)
 - **6 languages**: English / 한국어 / Español / Português (Brasil) / Français / Deutsch, switch instantly in Settings
@@ -42,15 +42,15 @@ You're working, but you can't remember what you were even doing? Molayo is a sma
 
 ```bash
 git clone <repo-url>
-cd Molayo_TodoList
+cd Mollayo_TodoList
 ./build.sh
-open .build/release/Molayo.app
+open .build/release/Mollayo.app
 ```
 
 To install it into `/Applications`: / `/Applications`에 옮겨서 쓰고 싶다면:
 
 ```bash
-cp -R .build/release/Molayo.app /Applications/
+cp -R .build/release/Mollayo.app /Applications/
 ```
 
 On first launch, if you see a signature warning, right-click the app in Finder and choose "Open" once.

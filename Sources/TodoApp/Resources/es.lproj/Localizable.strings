@@ -34,7 +34,7 @@
 "I forgot" = "Se me olvidó";
 "Remind again at %@" = "Recordar de nuevo a las %@";
 "Don't forget this one!" = "¡No te olvides de esto!";
-"Molayo Briefing" = "Resumen de Molayo";
+"Mollayo Briefing" = "Resumen de Mollayo";
 "You're focusing — %@ left" = "Estás enfocado — quedan %@";
 "You're on a break — %@ left" = "Estás en descanso — quedan %@";
 "No timer running right now." = "No hay ningún temporizador activo ahora.";
@@ -45,4 +45,6 @@
 "Today" = "Hoy";
 "All done!" = "¡Todo listo!";
 "About" = "Acerca de";
-"You're working, but you can't remember what you were doing? Molayo remembers so you don't have to." = "¿Estás trabajando pero no recuerdas en qué? Molayo lo recuerda por ti.";
+"You're working, but you can't remember what you were doing? Mollayo remembers so you don't have to." = "¿Estás trabajando pero no recuerdas en qué? Mollayo lo recuerda por ti.";
+"Subtasks" = "Subtareas";
+"New subtask" = "Nueva subtarea";

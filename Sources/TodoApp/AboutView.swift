@@ -11,9 +11,9 @@ struct AboutView: View {
                 .font(.system(size: 56))
                 .foregroundStyle(Color.accentColor)
 
-            Text("Molayo").font(.title).bold()
+            Text("Mollayo").font(.title).bold()
 
-            Text(i18n.t("You're working, but you can't remember what you were doing? Molayo remembers so you don't have to."))
+            Text(i18n.t("You're working, but you can't remember what you were doing? Mollayo remembers so you don't have to."))
                 .font(.body)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)

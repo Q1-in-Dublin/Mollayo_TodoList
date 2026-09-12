@@ -78,6 +78,12 @@ struct TaskRow: View {
 
             Spacer()
 
+            if !task.subtasks.isEmpty {
+                let done = task.subtasks.filter(\.isDone).count
+                Text("\(done)/\(task.subtasks.count)")
+                    .font(.caption).foregroundStyle(.secondary)
+            }
+
             if let due = task.dueDate {
                 Text(due, style: .date).font(.caption).foregroundStyle(.secondary)
             }
@@ -90,6 +96,9 @@ struct TaskRow: View {
                 .buttonStyle(.plain)
                 .help(i18n.t("I forgot"))
             }
+
+            Image(systemName: "chevron.right")
+                .font(.caption2).foregroundStyle(.tertiary)
         }
         .contentShape(Rectangle())
         .onTapGesture { onTap() }
