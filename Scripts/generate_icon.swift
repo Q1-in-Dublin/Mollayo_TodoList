@@ -1,6 +1,7 @@
 // Molayo app icon: sleek goldfish silhouette ("B · Deep Water Gold" from the
-// design canvas) — teal-to-navy water background, gold gradient fish, soft
-// highlight sheen, drop shadow. No eye/mouth/bubble.
+// design canvas) - teal-to-navy water background, blue gradient fish (color
+// matched to the approved reference image), soft highlight sheen, drop
+// shadow. No eye/mouth/bubble.
 // The context is flipped once so path coordinates below match the source
 // SVG's viewBox (0 0 200 200) numbers exactly.
 // Earlier revisions (blue checkmark, "?!" bubble goldfish, chubby mochi-fish)
@@ -72,7 +73,7 @@ func drawIcon(px: Int) -> NSBitmapImageRep {
     cg.addPath(fish)
     cg.clip()
     let fishGradient = CGGradient(colorsSpace: CGColorSpaceCreateDeviceRGB(),
-                                   colors: [color(0.965, 0.871, 0.604), color(0.788, 0.573, 0.169)] as CFArray,
+                                   colors: [color(0.298, 0.592, 1.0), color(0.043, 0.341, 0.839)] as CFArray,
                                    locations: [0, 1])!
     cg.drawLinearGradient(fishGradient, start: pt(15, 35), end: pt(178, 168), options: [])
     cg.restoreGState()
